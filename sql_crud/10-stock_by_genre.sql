@@ -1,2 +1,2 @@
 SELECT genre, SUM(stock) FROM books
-ORDER BY genre
+GROUP BY genre
